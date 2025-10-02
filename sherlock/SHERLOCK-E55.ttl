@@ -7,6 +7,12 @@
 <518e72ac-3471-4483-b633-e07aecfff49c> a crm:E55_Type ;
     crm:P1_is_identified_by "Texte de présentation de projet" .
 
+<55bd36bd-d63e-4a4c-904b-60d29e9302dd> a crm:E55_Type ;
+    crm:P1_is_identified_by "Documentation de projet" .
+
 <58c38fd3-ca35-476a-aa39-9cc815ee2dab> a crm:E55_Type ;
     crm:P1_is_identified_by "Projet de recherche" .
+
+<66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> a crm:E55_Type ;
+    crm:P1_is_identified_by "Fichier informatique" .
 
