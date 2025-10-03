@@ -1,6 +1,9 @@
 @base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 
+<01349f52-7527-4b01-8945-eb2232c2fa4f> a crm:E55_Type ;
+    crm:P1_is_identified_by "Köchel catalogue" .
+
 <04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> a crm:E55_Type ;
     crm:P1_is_identified_by "Emoji" .
 
@@ -33,6 +36,9 @@
 
 <804d8e72-cced-4b78-85d4-78a016e1c153> a crm:E55_Type ;
     crm:P1_is_identified_by "Logo URI" .
+
+<a7d8056c-2dad-4573-b2df-4ea2a445ef6f> a crm:E55_Type ;
+    crm:P1_is_identified_by "Numéro d'expression" .
 
 <bae39954-9d0c-40e4-8258-c1b6dfd0a4a4> a crm:E55_Type ;
     crm:P1_is_identified_by "URI VIAF" .

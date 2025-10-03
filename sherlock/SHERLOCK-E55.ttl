@@ -1,6 +1,9 @@
 @base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 
+<13f43e00-680a-4a6d-a223-48e8d9bbeaae> a crm:E55_Type ;
+    crm:P1_is_identified_by "Article du Mercure Galant" .
+
 <38d7afc1-1c56-4d4a-9c5b-3c68c1ac8b27> a crm:E55_Type ;
     crm:P1_is_identified_by "Logo" .
 
@@ -15,4 +18,7 @@
 
 <66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> a crm:E55_Type ;
     crm:P1_is_identified_by "Fichier informatique" .
+
+<901c2bb5-549d-47e9-bd91-7a21d7cbe49f> a crm:E55_Type ;
+    crm:P1_is_identified_by "Livraison du Mercure Galant" .
 
