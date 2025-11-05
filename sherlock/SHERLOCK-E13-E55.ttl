@@ -14,6 +14,7 @@
         <4aa1d588-ff1b-4ac5-bed7-2cd2f0aab579>,
         <4b3040e5-a6c3-4c9f-b318-c0699906e8da>,
         <669fb0e8-1624-44e3-aa20-ecd02bd62c54>,
+        <67a4fbdc-a186-43c5-bcb9-bb25bf798ded>,
         <751e102f-4019-444a-826e-fa9277cb4198>,
         <8c01e892-9635-4b5f-8d9a-cb5d765c3d3c>,
         <8d4eceb9-7245-4cff-bc0b-7504efd5ded2>,
@@ -63,6 +64,9 @@
 
 <669fb0e8-1624-44e3-aa20-ecd02bd62c54> a crm:E55_Type ;
     crm:P1_is_identified_by "Annuaire" .
+
+<67a4fbdc-a186-43c5-bcb9-bb25bf798ded> a crm:E55_Type ;
+    crm:P1_is_identified_by "Notes au titre" .
 
 <751e102f-4019-444a-826e-fa9277cb4198> a crm:E55_Type ;
     crm:P1_is_identified_by "Numéro de sociétaire 1868" .

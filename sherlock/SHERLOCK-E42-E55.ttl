@@ -10,6 +10,9 @@
 <179c61b8-4215-4644-bb52-ad9fe2094da1> a crm:E55_Type ;
     crm:P1_is_identified_by "URI Grove" .
 
+<17e3d5f6-36ae-4e90-adc2-1de04eeeacb9> a crm:E55_Type ;
+    crm:P1_is_identified_by "Émoticône" .
+
 <2e12e76e-d19b-4e22-92fe-a3e0766847f4> a crm:E55_Type ;
     crm:P1_is_identified_by "Nakala DOI" .
 
@@ -67,8 +70,14 @@
 <df9f27d6-b08b-46e6-ad67-202259c4cdbd> a crm:E55_Type ;
     crm:P1_is_identified_by "URI Data BnF" .
 
+<f005e36a-4690-4c83-9791-2927f5f823e0> a crm:E55_Type ;
+    crm:P1_is_identified_by "URI de fichier TEI" .
+
 <f248c1a2-5861-45b5-b886-9da0ff1cdd5b> a crm:E55_Type ;
     crm:P1_is_identified_by "Old Database ID" .
+
+<f284ed72-139d-4662-9dce-208bf493a45d> a crm:E55_Type ;
+    crm:P1_is_identified_by "URI de fichier sur une forge" .
 
 <f4262bac-f72c-40e2-aa51-ae352da5a35c> a crm:E55_Type ;
     crm:P1_is_identified_by "URI Gallica" .
