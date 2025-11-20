@@ -40,6 +40,9 @@
 <804d8e72-cced-4b78-85d4-78a016e1c153> a crm:E55_Type ;
     crm:P1_is_identified_by "Logo URI" .
 
+<9704a621-3aa0-4e64-a68a-d956c943d4a6> a crm:E55_Type ;
+    crm:P1_is_identified_by "Pagination" .
+
 <a7d8056c-2dad-4573-b2df-4ea2a445ef6f> a crm:E55_Type ;
     crm:P1_is_identified_by "Numéro d'expression" .
 
