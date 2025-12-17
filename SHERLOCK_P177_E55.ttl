@@ -6,6 +6,7 @@
         <0ea4f68b-25a0-43ef-a9f5-1439509faed3>,
         <0f968c2d-3358-4114-a9ca-d0cf15904303>,
         <13009a17-b2e2-45dd-b639-0cd5303f3414>,
+        <18d2486d-88ef-4bb9-9a36-05aaee5dc0fb>,
         <19abc113-6119-4360-be30-6c9bc1468827>,
         <1af36f4e-5e9b-44b2-aef3-a91c2c190b76>,
         <3dec8a75-786b-4314-bf6a-cbc3bdc20c73>,
@@ -40,6 +41,9 @@
 
 <13009a17-b2e2-45dd-b639-0cd5303f3414> a crm:E55_Type ;
     crm:P1_is_identified_by "Siècle" .
+
+<18d2486d-88ef-4bb9-9a36-05aaee5dc0fb> a crm:E55_Type ;
+    crm:P1_is_identified_by "Dédicataire(s)" .
 
 <19abc113-6119-4360-be30-6c9bc1468827> a crm:E55_Type ;
     crm:P1_is_identified_by "Notes sur le nom" .
