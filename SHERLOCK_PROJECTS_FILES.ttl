@@ -1,82 +1,82 @@
 @base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 
-<0111a82e-266e-4328-a61e-770c824513d5> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/adherents4_0.pdf> ;
-    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
-
-<2db6cc3f-68d5-4129-9a48-db6c0772e91a> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/statuts_1848-1849.pdf> ;
-    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
-
-<345d8628-2e53-4eaf-9a44-c4ab3f6d1643> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/README.md> ;
-    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
-
-<905aa224-0fc6-4bb8-8f82-5d3be7f70be1> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/logo.jpg> ;
-    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
-
-<b45191de-4804-47f4-9371-704e75e16f4e> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/cr1844-1880.pdf> ;
-    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
-
-<d0503c11-2df7-462c-bd87-953df83cb99b> a crm:E42_Identifier ;
+<08c1ae3b-fdfa-44ed-b02a-8d0e5e941d43> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/presentation.pdf> ;
     crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
 
-<d9b9b150-cdee-4f66-ba8a-a33c68aff02d> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/etatdufonds.pdf> ;
+<0cb257dd-118a-414a-91bd-6ab8207095af> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/cr1844-1880.pdf> ;
     crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
 
-<f06e9111-f7aa-4f33-8ad6-7bfd692cba91> a crm:E42_Identifier ;
+<117044cc-354b-4ad3-ad9e-9f19db3d8142> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/statuts_1844-1846.pdf> ;
     crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
 
+<78f826f8-e11b-4101-a9d5-c9cc0adf4023> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/etatdufonds.pdf> ;
+    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
+
+<9a0dd56c-eeb4-41ea-a368-844d3dba3852> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/README.md> ;
+    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
+
+<c6bd595b-35bc-4749-a050-7c7c0e645ce2> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/adherents4_0.pdf> ;
+    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
+
+<d78832a3-fd4b-48e2-8e97-d7bfea52d061> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/logo.jpg> ;
+    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
+
+<fb9fe681-a715-4c1b-8716-64a7347c97b3> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/statuts_1848-1849.pdf> ;
+    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
+
 <01654e8d-ebc6-4f56-8902-ec7a97788a0c> a crm:E31_Document ;
-    crm:P1_is_identified_by <f06e9111-f7aa-4f33-8ad6-7bfd692cba91>,
+    crm:P1_is_identified_by <117044cc-354b-4ad3-ad9e-9f19db3d8142>,
         "Statuts 1844-1846" ;
     crm:P2_has_type <66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> ;
     crm:P70_documents <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
 
 <12641e15-3d4e-478f-8822-89a94ca1e48f> a crm:E31_Document ;
-    crm:P1_is_identified_by <d0503c11-2df7-462c-bd87-953df83cb99b>,
+    crm:P1_is_identified_by <08c1ae3b-fdfa-44ed-b02a-8d0e5e941d43>,
         "Présentation générale" ;
     crm:P2_has_type <66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> ;
     crm:P70_documents <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
 
 <5bbd9e41-aab7-4c21-ad23-db13066f3c55> a crm:E31_Document ;
-    crm:P1_is_identified_by <0111a82e-266e-4328-a61e-770c824513d5>,
+    crm:P1_is_identified_by <c6bd595b-35bc-4749-a050-7c7c0e645ce2>,
         "La Société des compositeurs de musique (1862-1923)" ;
     crm:P2_has_type <66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> ;
     crm:P70_documents <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
 
 <7a9db1f1-565e-4f48-a98c-fa9104582f68> a crm:E31_Document ;
-    crm:P1_is_identified_by <2db6cc3f-68d5-4129-9a48-db6c0772e91a>,
+    crm:P1_is_identified_by <fb9fe681-a715-4c1b-8716-64a7347c97b3>,
         "Statuts 1848-1849" ;
     crm:P2_has_type <66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> ;
     crm:P70_documents <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
 
 <a1b37ed5-477f-4cb8-91df-1c3845341248> a crm:E31_Document ;
-    crm:P1_is_identified_by <d9b9b150-cdee-4f66-ba8a-a33c68aff02d>,
+    crm:P1_is_identified_by <78f826f8-e11b-4101-a9d5-c9cc0adf4023>,
         "État du fonds" ;
     crm:P2_has_type <66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> ;
     crm:P70_documents <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
 
 <b3f43101-ce54-46ce-ae37-dfa6c4dae7d3> a crm:E31_Document ;
-    crm:P1_is_identified_by <905aa224-0fc6-4bb8-8f82-5d3be7f70be1>,
+    crm:P1_is_identified_by <d78832a3-fd4b-48e2-8e97-d7bfea52d061>,
         "Logo" ;
     crm:P2_has_type <66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> ;
     crm:P70_documents <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
 
 <b56c52b0-1f7b-4da5-abc4-366fc6982307> a crm:E31_Document ;
-    crm:P1_is_identified_by <345d8628-2e53-4eaf-9a44-c4ab3f6d1643>,
+    crm:P1_is_identified_by <9a0dd56c-eeb4-41ea-a368-844d3dba3852>,
         "Texte de présentation du projet" ;
     crm:P2_has_type <66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> ;
     crm:P70_documents <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
 
 <b8dbba98-5632-4b56-afe6-b42e982dd48f> a crm:E31_Document ;
-    crm:P1_is_identified_by <b45191de-4804-47f4-9371-704e75e16f4e>,
+    crm:P1_is_identified_by <0cb257dd-118a-414a-91bd-6ab8207095af>,
         "Comptes rendus annuels 1844-1880" ;
     crm:P2_has_type <66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> ;
     crm:P70_documents <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
