@@ -10,6 +10,9 @@
 <aa97d53f-d397-4222-92ad-ea74d5310f60> a crm:E55_Type ;
     crm:P1_is_identified_by "Titre forgé" .
 
+<d7fadc20-3937-4b35-8a19-f090fee5b6c6> a crm:E55_Type ;
+    crm:P1_is_identified_by "Source" .
+
 <f50565da-e46e-40cc-b7b3-167cd0a52404> a crm:E55_Type ;
     crm:P1_is_identified_by "Titre courant" .
 
