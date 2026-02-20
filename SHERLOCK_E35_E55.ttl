@@ -7,6 +7,9 @@
 <3e8d9526-4c24-4c3a-b7c1-0dfc8ab74e22> a crm:E55_Type ;
     crm:P1_is_identified_by "Titre dans le paratexte" .
 
+<a3456c97-6c91-484d-879d-62eb223f1c4d> a crm:E55_Type ;
+    crm:P1_is_identified_by "Titre alternatif" .
+
 <aa97d53f-d397-4222-92ad-ea74d5310f60> a crm:E55_Type ;
     crm:P1_is_identified_by "Titre forgé" .
 

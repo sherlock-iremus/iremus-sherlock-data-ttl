@@ -2,63 +2,63 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
 
-<6688d20a-cb81-4ea5-8ce0-874a8e53cb07> crm:P9_consists_of <880b1967-b491-4d48-a7da-46c2aec67cf6> .
+<6688d20a-cb81-4ea5-8ce0-874a8e53cb07> crm:P9_consists_of <560decca-e41b-4a24-92c7-fa9aee4fd320> .
 
-<bb8b4c24-4d9f-4790-a710-511e49e5c6b7> crm:P9_consists_of <469c751c-0603-4d05-8bd4-606569c1ef54> .
+<bb8b4c24-4d9f-4790-a710-511e49e5c6b7> crm:P9_consists_of <d7f87790-8de5-4e84-99e0-651b70b06b6c> .
 
 <48e1830b-f181-4cc6-8ab2-55cbf621e210> a sherlock:Collection ;
     crm:P1_is_identified_by "Personnes" ;
-    crm:P94i_was_created_by <bf668846-6ece-4039-a405-1cde62b856f0> .
+    crm:P94i_was_created_by <d0c7711a-8dff-4e59-bb1d-2746e1bc4459> .
 
 <b77c7bb2-25e7-4003-8d6d-8b12a722c30b> a sherlock:Collection ;
     crm:P1_is_identified_by "Œuvres" ;
-    crm:P94i_was_created_by <9f2eeab5-52cc-4ac6-ac11-db9dfd6dd175> .
+    crm:P94i_was_created_by <9d3428ca-b097-4ca7-84ca-484f1d38c75e> .
 
 <c583a908-30da-4d05-b0b1-dec8d3401a1e> a sherlock:Collection ;
     crm:P1_is_identified_by "Entrées d'annuaire (sociétaires)" ;
-    crm:P94i_was_created_by <880b1967-b491-4d48-a7da-46c2aec67cf6> .
+    crm:P94i_was_created_by <560decca-e41b-4a24-92c7-fa9aee4fd320> .
 
 <daec3210-3640-4c7f-8a20-4549f3ccb79c> a sherlock:Collection ;
     crm:P1_is_identified_by "Personnes" ;
-    crm:P94i_was_created_by <469c751c-0603-4d05-8bd4-606569c1ef54> .
+    crm:P94i_was_created_by <d7f87790-8de5-4e84-99e0-651b70b06b6c> .
 
 <eae9b2e2-5087-43ca-bff0-6b8127a41a60> a sherlock:Collection ;
     crm:P1_is_identified_by "Articles" ;
-    crm:P94i_was_created_by <7f768f5a-e4fa-4ef9-b580-0dd01108e39d> .
+    crm:P94i_was_created_by <098c3e60-4e27-4670-8fdf-546fb1f42880> .
 
 <f252113e-7480-43dd-a48f-0f4d07176eab> a sherlock:Collection ;
     crm:P1_is_identified_by "Livraisons" ;
-    crm:P94i_was_created_by <aecac15c-4978-493c-a1a2-226c8b4d80b4> .
+    crm:P94i_was_created_by <5a0c75a6-1bee-49e3-8c7b-d0f722ba0429> .
 
-<15efa404-c065-4c04-ab16-375b7d95afbf> crm:P9_consists_of <9f2eeab5-52cc-4ac6-ac11-db9dfd6dd175>,
-        <bf668846-6ece-4039-a405-1cde62b856f0> .
-
-<469c751c-0603-4d05-8bd4-606569c1ef54> a crm:E65_Creation ;
-    crm:P94_has_created <daec3210-3640-4c7f-8a20-4549f3ccb79c> ;
-    crm:P9i_forms_part_of <bb8b4c24-4d9f-4790-a710-511e49e5c6b7> .
-
-<77176a31-2f64-4c47-82d7-fbdda58d776d> crm:P9_consists_of <7f768f5a-e4fa-4ef9-b580-0dd01108e39d>,
-        <aecac15c-4978-493c-a1a2-226c8b4d80b4> .
-
-<7f768f5a-e4fa-4ef9-b580-0dd01108e39d> a crm:E65_Creation ;
+<098c3e60-4e27-4670-8fdf-546fb1f42880> a crm:E65_Creation ;
     crm:P94_has_created <eae9b2e2-5087-43ca-bff0-6b8127a41a60> ;
     crm:P9i_forms_part_of <77176a31-2f64-4c47-82d7-fbdda58d776d> .
 
-<880b1967-b491-4d48-a7da-46c2aec67cf6> a crm:E65_Creation ;
+<15efa404-c065-4c04-ab16-375b7d95afbf> crm:P9_consists_of <9d3428ca-b097-4ca7-84ca-484f1d38c75e>,
+        <d0c7711a-8dff-4e59-bb1d-2746e1bc4459> .
+
+<560decca-e41b-4a24-92c7-fa9aee4fd320> a crm:E65_Creation ;
     crm:P94_has_created <c583a908-30da-4d05-b0b1-dec8d3401a1e> ;
     crm:P9i_forms_part_of <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
 
-<9f2eeab5-52cc-4ac6-ac11-db9dfd6dd175> a crm:E65_Creation ;
-    crm:P94_has_created <b77c7bb2-25e7-4003-8d6d-8b12a722c30b> ;
-    crm:P9i_forms_part_of <15efa404-c065-4c04-ab16-375b7d95afbf> .
-
-<aecac15c-4978-493c-a1a2-226c8b4d80b4> a crm:E65_Creation ;
+<5a0c75a6-1bee-49e3-8c7b-d0f722ba0429> a crm:E65_Creation ;
     crm:P94_has_created <f252113e-7480-43dd-a48f-0f4d07176eab> ;
     crm:P9i_forms_part_of <77176a31-2f64-4c47-82d7-fbdda58d776d> .
 
-<bf668846-6ece-4039-a405-1cde62b856f0> a crm:E65_Creation ;
+<77176a31-2f64-4c47-82d7-fbdda58d776d> crm:P9_consists_of <098c3e60-4e27-4670-8fdf-546fb1f42880>,
+        <5a0c75a6-1bee-49e3-8c7b-d0f722ba0429> .
+
+<9d3428ca-b097-4ca7-84ca-484f1d38c75e> a crm:E65_Creation ;
+    crm:P94_has_created <b77c7bb2-25e7-4003-8d6d-8b12a722c30b> ;
+    crm:P9i_forms_part_of <15efa404-c065-4c04-ab16-375b7d95afbf> .
+
+<d0c7711a-8dff-4e59-bb1d-2746e1bc4459> a crm:E65_Creation ;
     crm:P94_has_created <48e1830b-f181-4cc6-8ab2-55cbf621e210> ;
     crm:P9i_forms_part_of <15efa404-c065-4c04-ab16-375b7d95afbf> .
+
+<d7f87790-8de5-4e84-99e0-651b70b06b6c> a crm:E65_Creation ;
+    crm:P94_has_created <daec3210-3640-4c7f-8a20-4549f3ccb79c> ;
+    crm:P9i_forms_part_of <bb8b4c24-4d9f-4790-a710-511e49e5c6b7> .
 
 @base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
@@ -68,6 +68,9 @@
 
 <3e8d9526-4c24-4c3a-b7c1-0dfc8ab74e22> a crm:E55_Type ;
     crm:P1_is_identified_by "Titre dans le paratexte" .
+
+<a3456c97-6c91-484d-879d-62eb223f1c4d> a crm:E55_Type ;
+    crm:P1_is_identified_by "Titre alternatif" .
 
 <aa97d53f-d397-4222-92ad-ea74d5310f60> a crm:E55_Type ;
     crm:P1_is_identified_by "Titre forgé" .
@@ -177,6 +180,9 @@
 <13f43e00-680a-4a6d-a223-48e8d9bbeaae> a crm:E55_Type ;
     crm:P1_is_identified_by "Article du Mercure Galant" .
 
+<175df7e8-8091-4ca4-be32-372c83ddf0bb> a crm:E55_Type ;
+    crm:P1_is_identified_by "haute-contre (ténor)" .
+
 <38d7afc1-1c56-4d4a-9c5b-3c68c1ac8b27> a crm:E55_Type ;
     crm:P1_is_identified_by "Logo" .
 
@@ -192,8 +198,14 @@
 <66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> a crm:E55_Type ;
     crm:P1_is_identified_by "Fichier informatique" .
 
+<7a86bf81-93c8-4e05-b9f6-9c5be29e4b8c> a crm:E55_Type ;
+    crm:P1_is_identified_by "chœur à 3 parties" .
+
 <901c2bb5-549d-47e9-bd91-7a21d7cbe49f> a crm:E55_Type ;
     crm:P1_is_identified_by "Livraison du Mercure Galant" .
+
+<a2ed1200-bb5d-4221-b18e-f971fe513139> a crm:E55_Type ;
+    crm:P1_is_identified_by "2 dessus instrumentaux" .
 
 @base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
@@ -206,13 +218,16 @@
         <18d2486d-88ef-4bb9-9a36-05aaee5dc0fb>,
         <19abc113-6119-4360-be30-6c9bc1468827>,
         <1af36f4e-5e9b-44b2-aef3-a91c2c190b76>,
+        <305485c8-ebc6-4db8-b1e4-8cd498c09ce6>,
         <3dec8a75-786b-4314-bf6a-cbc3bdc20c73>,
         <412142ec-63a8-41f0-8868-2623015a5cd1>,
         <42622a51-8d54-4be7-9012-ff879398e0b0>,
         <4aa1d588-ff1b-4ac5-bed7-2cd2f0aab579>,
         <4b3040e5-a6c3-4c9f-b318-c0699906e8da>,
+        <4e810fdf-baee-4bdf-a539-4e2109aa6f18>,
         <669fb0e8-1624-44e3-aa20-ecd02bd62c54>,
         <67a4fbdc-a186-43c5-bcb9-bb25bf798ded>,
+        <6e1d07c0-3c36-471d-883a-62ca12a3c079>,
         <751e102f-4019-444a-826e-fa9277cb4198>,
         <8c01e892-9635-4b5f-8d9a-cb5d765c3d3c>,
         <8d4eceb9-7245-4cff-bc0b-7504efd5ded2>,
@@ -221,7 +236,10 @@
         <9f423c5f-e6b7-440f-bd67-a33f8bb9d557>,
         <a95bde96-0fb0-48af-b4c0-b6216a1ae544>,
         <a98a2ce1-4ee7-4e8f-98bf-11c38e96dbca>,
+        <b7906049-7e6e-4fb1-a9f3-c15fc9cc6eef>,
         <bda0624b-a9dc-438d-bf5f-dba1eebc9648>,
+        <c664eafc-e6a2-4c85-8023-1b4a9278301c>,
+        <e66dd42c-3d8f-409f-b643-2568bf9b753f>,
         <ea00ab71-5759-4f40-b807-d28f06fa6d8b> .
 
 <081e9980-cbe5-4e8e-b2b3-0239ad3f8378> a crm:E55_Type ;
@@ -248,6 +266,9 @@
 <1af36f4e-5e9b-44b2-aef3-a91c2c190b76> a crm:E55_Type ;
     crm:P1_is_identified_by "Prénom" .
 
+<305485c8-ebc6-4db8-b1e4-8cd498c09ce6> a crm:E55_Type ;
+    crm:P1_is_identified_by "Timbres instrumentaux" .
+
 <3dec8a75-786b-4314-bf6a-cbc3bdc20c73> a crm:E55_Type ;
     crm:P1_is_identified_by "Numéro de sociétaire 1861" .
 
@@ -263,11 +284,17 @@
 <4b3040e5-a6c3-4c9f-b318-c0699906e8da> a crm:E55_Type ;
     crm:P1_is_identified_by "Chant" .
 
+<4e810fdf-baee-4bdf-a539-4e2109aa6f18> a crm:E55_Type ;
+    crm:P1_is_identified_by "Voix solistes" .
+
 <669fb0e8-1624-44e3-aa20-ecd02bd62c54> a crm:E55_Type ;
     crm:P1_is_identified_by "Annuaire" .
 
 <67a4fbdc-a186-43c5-bcb9-bb25bf798ded> a crm:E55_Type ;
     crm:P1_is_identified_by "Notes au titre" .
+
+<6e1d07c0-3c36-471d-883a-62ca12a3c079> a crm:E55_Type ;
+    crm:P1_is_identified_by "Symphonie" .
 
 <751e102f-4019-444a-826e-fa9277cb4198> a crm:E55_Type ;
     crm:P1_is_identified_by "Numéro de sociétaire 1868" .
@@ -293,8 +320,17 @@
 <a98a2ce1-4ee7-4e8f-98bf-11c38e96dbca> a crm:E55_Type ;
     crm:P1_is_identified_by "Adresse" .
 
+<b7906049-7e6e-4fb1-a9f3-c15fc9cc6eef> a crm:E55_Type ;
+    crm:P1_is_identified_by "Orchestre" .
+
 <bda0624b-a9dc-438d-bf5f-dba1eebc9648> a crm:E55_Type ;
     crm:P1_is_identified_by "Qualité" .
+
+<c664eafc-e6a2-4c85-8023-1b4a9278301c> a crm:E55_Type ;
+    crm:P1_is_identified_by "Chœur" .
+
+<e66dd42c-3d8f-409f-b643-2568bf9b753f> a crm:E55_Type ;
+    crm:P1_is_identified_by "Basse continue" .
 
 <ea00ab71-5759-4f40-b807-d28f06fa6d8b> a crm:E55_Type ;
     crm:P1_is_identified_by "Domaine" .
@@ -315,234 +351,226 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 
 <08a13162-1841-40e4-a1c8-c8f4033cbc6c> a crm:E21_Person ;
-    crm:P1_is_identified_by <24afd644-0c3a-43f6-9a34-5443184f70d3>,
-        <7fdf2859-e1f6-4430-a211-6d88d1e59d2f>,
-        <c26cd181-558d-468f-8e5c-b3598e7fc677>,
-        <ddb5db79-7826-4f5b-a665-d5250d6eefba> .
+    crm:P1_is_identified_by <27541bd6-c510-4b92-81f8-6e752837da3a>,
+        <73c0b1b0-df37-445b-a100-27646c850674>,
+        <d776f12c-4616-4328-9f8b-afdd62899852>,
+        <e5867532-1e2d-4cac-b8ed-87e61d131edd> .
 
 <447b85ae-53c6-4787-8f63-4c9118023c92> a crm:E21_Person ;
-    crm:P1_is_identified_by <12d30377-6a6d-4ab2-ae6b-dd8af9f6027a>,
-        <7a850ee1-a367-4259-b789-b64e8a829ce3> .
+    crm:P1_is_identified_by <40956e5b-0d79-497a-9539-f155e4c636ab>,
+        <42def94d-ed8f-41cd-b257-95ec7242b0db> .
 
 <49c69132-183d-40d4-90f5-2b533ef7dfde> a crm:E21_Person ;
-    crm:P1_is_identified_by <5b0a48b3-82bd-42e2-95f0-aa3602fc3177>,
-        <6014f1c6-7649-4eab-aa72-de4989c7a08e>,
-        <9d3ba45c-a655-43e0-abf3-e467a15593a7>,
-        <ef952430-14f1-4591-a531-cd703b6114d2> .
+    crm:P1_is_identified_by <2e144e91-3110-48b3-b17d-8511779c692e>,
+        <3cc5f563-182f-481a-becf-fbe72ddbfbdc>,
+        <b17c5dbd-36d1-4841-9ace-e47c582a05bb>,
+        <c7b6844b-616d-48b6-9a7e-6a96f76c29a6> .
 
 <4b310d11-24e4-41b6-b8e3-4fa223ff8fae> a crm:E21_Person ;
-    crm:P1_is_identified_by <af1d10be-772a-4313-97d3-d6866ff4c1e7>,
-        <cabd280a-e34c-4c68-a1de-5010222c5890> .
+    crm:P1_is_identified_by <a55a2ef5-c60e-40f1-b1b8-5fb74e114bd4>,
+        <aae4b0fd-0748-4df6-9a84-14dedfbd0cf3> .
 
 <5d3e1e80-8f04-4a21-a085-f0fd2e1c40aa> a crm:E21_Person ;
-    crm:P1_is_identified_by <293a25bc-a9f6-470b-b682-9fb98d3a2c4a>,
-        <49d1855d-35c4-4a43-81be-27c0b10b4ad0> .
+    crm:P1_is_identified_by <4bebb40d-a4d9-4e2d-9192-ed2e15f640da>,
+        <92f3001a-d5ad-42e1-b944-cf694d29a0f6> .
 
 <b25c0ded-46e0-480d-8446-0a202266bd8f> a crm:E21_Person ;
-    crm:P1_is_identified_by <1e25eec3-ef25-453e-a08d-63565c363654>,
-        <85371727-3332-49ed-8a87-0333355694f0>,
-        <dc39ac66-f410-47b5-a3ce-c442aea45a91>,
-        <ec3642af-827d-4e09-8f89-25c7610f1233> .
+    crm:P1_is_identified_by <02865806-3290-4275-8143-3d25f3d3910a>,
+        <06630dcd-e69f-4686-9135-9d753f0db2eb>,
+        <97e9aaa2-0951-437e-a5a7-1449a93dc463>,
+        <c85654ac-1351-4454-bf9d-87dc802ba3b9> .
 
 <da7fb3fe-dca3-4edf-aaa4-7f725ae60cd3> a crm:E21_Person ;
-    crm:P1_is_identified_by <7ae0b353-5d3f-49a2-823e-67cc7a3d5d22>,
-        <927bfc75-e8db-4473-bf5d-f96194ef0ba6> .
+    crm:P1_is_identified_by <1d925bef-b237-4e67-8027-3e1301bb7834>,
+        <df5cda6b-a610-4df0-a580-74861df0728b> .
 
 <e6584d49-a83a-4a18-aab7-02ecaa80732b> a crm:E21_Person ;
-    crm:P1_is_identified_by <bb85fa63-b248-42ba-98d5-10352b72423e>,
-        <cb1b1873-9cdd-4f91-88a7-803ca1babdc1> .
+    crm:P1_is_identified_by <b8a5d4dc-9582-419c-8e8d-040eeb4fc145>,
+        <cd00494f-25d1-41fb-9f6d-ddb69da10b68> .
 
 <e6f783bc-2b2e-497b-9f48-f0bbd86f4bbb> a crm:E21_Person ;
-    crm:P1_is_identified_by <4156bf5c-6393-440b-891d-843468622371>,
-        <776b2e38-46af-4227-8c62-b6d2e3ba2ff5>,
-        <b7707264-cab3-48d3-af08-094e298a902c>,
-        <d1c2e676-473f-493e-b1ef-cb0dd07babf6> .
+    crm:P1_is_identified_by <6b32eb0a-cedc-43d1-a495-78d5244710cd>,
+        <bbfa932c-efed-4e0f-9f95-dd9211671feb>,
+        <d3b5e3ba-40be-4446-9f84-3d08908ffe17>,
+        <fab90cca-4dd7-477e-a0c5-1873549592e4> .
 
-<12d30377-6a6d-4ab2-ae6b-dd8af9f6027a> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "Hervé Audéon" ;
-    crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> .
-
-<1e25eec3-ef25-453e-a08d-63565c363654> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "00BBBB" ;
-    crm:P2_has_type <5f1bb74f-6ea0-4073-8b68-086f98454f1c> .
-
-<24afd644-0c3a-43f6-9a34-5443184f70d3> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "N" ;
-    crm:P2_has_type <04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> .
-
-<293a25bc-a9f6-470b-b682-9fb98d3a2c4a> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "0000-0002-5124-1328" ;
-    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
-
-<4156bf5c-6393-440b-891d-843468622371> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "0009-0009-9315-9363" ;
-    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
-
-<49d1855d-35c4-4a43-81be-27c0b10b4ad0> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "Florence Gétreau" ;
-    crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> .
-
-<5b0a48b3-82bd-42e2-95f0-aa3602fc3177> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "Hugues Seress" ;
-    crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> .
-
-<6014f1c6-7649-4eab-aa72-de4989c7a08e> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "H" ;
-    crm:P2_has_type <04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> .
-
-<776b2e38-46af-4227-8c62-b6d2e3ba2ff5> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "👑" ;
-    crm:P2_has_type <04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> .
-
-<7a850ee1-a367-4259-b789-b64e8a829ce3> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "0009-0003-1238-8145" ;
-    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
-
-<7ae0b353-5d3f-49a2-823e-67cc7a3d5d22> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "Anne Piéjus" ;
-    crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> .
-
-<7fdf2859-e1f6-4430-a211-6d88d1e59d2f> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "F75E25" ;
-    crm:P2_has_type <5f1bb74f-6ea0-4073-8b68-086f98454f1c> .
-
-<85371727-3332-49ed-8a87-0333355694f0> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "Nathalie Berton-Blivet" ;
-    crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> .
-
-<927bfc75-e8db-4473-bf5d-f96194ef0ba6> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "0000-0002-5105-627X" ;
-    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
-
-<9d3ba45c-a655-43e0-abf3-e467a15593a7> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "0000-0001-9950-2657" ;
-    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
-
-<af1d10be-772a-4313-97d3-d6866ff4c1e7> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "0009-0003-3377-3587" ;
-    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
-
-<b7707264-cab3-48d3-af08-094e298a902c> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "Isabelle Pluvieux" ;
-    crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> .
-
-<bb85fa63-b248-42ba-98d5-10352b72423e> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "Fabien Guilloux" ;
-    crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> .
-
-<c26cd181-558d-468f-8e5c-b3598e7fc677> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "0000-0003-4308-0445" ;
-    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
-
-<cabd280a-e34c-4c68-a1de-5010222c5890> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "Alban Framboisier" ;
-    crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> .
-
-<cb1b1873-9cdd-4f91-88a7-803ca1babdc1> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "0000-0001-8157-5049" ;
-    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
-
-<d1c2e676-473f-493e-b1ef-cb0dd07babf6> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "DFA0DF" ;
-    crm:P2_has_type <5f1bb74f-6ea0-4073-8b68-086f98454f1c> .
-
-<dc39ac66-f410-47b5-a3ce-c442aea45a91> a crm:E42_Identifier ;
+<02865806-3290-4275-8143-3d25f3d3910a> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content "0000-0002-5274-4330" ;
     crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
 
-<ddb5db79-7826-4f5b-a665-d5250d6eefba> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "Nicolas Meeùs" ;
-    crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> .
-
-<ec3642af-827d-4e09-8f89-25c7610f1233> a crm:E42_Identifier ;
+<06630dcd-e69f-4686-9135-9d753f0db2eb> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content "🪈" ;
     crm:P2_has_type <04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> .
 
-<ef952430-14f1-4591-a531-cd703b6114d2> a crm:E42_Identifier ;
+<1d925bef-b237-4e67-8027-3e1301bb7834> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-5105-627X" ;
+    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
+
+<27541bd6-c510-4b92-81f8-6e752837da3a> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-4308-0445" ;
+    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
+
+<2e144e91-3110-48b3-b17d-8511779c692e> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content "F75E25" ;
+    crm:P2_has_type <5f1bb74f-6ea0-4073-8b68-086f98454f1c> .
+
+<3cc5f563-182f-481a-becf-fbe72ddbfbdc> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "Hugues Seress" ;
+    crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> .
+
+<40956e5b-0d79-497a-9539-f155e4c636ab> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "Hervé Audéon" ;
+    crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> .
+
+<42def94d-ed8f-41cd-b257-95ec7242b0db> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0009-0003-1238-8145" ;
+    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
+
+<4bebb40d-a4d9-4e2d-9192-ed2e15f640da> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-5124-1328" ;
+    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
+
+<6b32eb0a-cedc-43d1-a495-78d5244710cd> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "👑" ;
+    crm:P2_has_type <04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> .
+
+<73c0b1b0-df37-445b-a100-27646c850674> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "Nicolas Meeùs" ;
+    crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> .
+
+<92f3001a-d5ad-42e1-b944-cf694d29a0f6> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "Florence Gétreau" ;
+    crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> .
+
+<97e9aaa2-0951-437e-a5a7-1449a93dc463> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "Nathalie Berton-Blivet" ;
+    crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> .
+
+<a55a2ef5-c60e-40f1-b1b8-5fb74e114bd4> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0009-0003-3377-3587" ;
+    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
+
+<aae4b0fd-0748-4df6-9a84-14dedfbd0cf3> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "Alban Framboisier" ;
+    crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> .
+
+<b17c5dbd-36d1-4841-9ace-e47c582a05bb> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "H" ;
+    crm:P2_has_type <04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> .
+
+<b8a5d4dc-9582-419c-8e8d-040eeb4fc145> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "Fabien Guilloux" ;
+    crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> .
+
+<bbfa932c-efed-4e0f-9f95-dd9211671feb> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "Isabelle Pluvieux" ;
+    crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> .
+
+<c7b6844b-616d-48b6-9a7e-6a96f76c29a6> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0001-9950-2657" ;
+    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
+
+<c85654ac-1351-4454-bf9d-87dc802ba3b9> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "00BBBB" ;
+    crm:P2_has_type <5f1bb74f-6ea0-4073-8b68-086f98454f1c> .
+
+<cd00494f-25d1-41fb-9f6d-ddb69da10b68> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0001-8157-5049" ;
+    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
+
+<d3b5e3ba-40be-4446-9f84-3d08908ffe17> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0009-0009-9315-9363" ;
+    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
+
+<d776f12c-4616-4328-9f8b-afdd62899852> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "F75E25" ;
+    crm:P2_has_type <5f1bb74f-6ea0-4073-8b68-086f98454f1c> .
+
+<df5cda6b-a610-4df0-a580-74861df0728b> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "Anne Piéjus" ;
+    crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> .
+
+<e5867532-1e2d-4cac-b8ed-87e61d131edd> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "N" ;
+    crm:P2_has_type <04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> .
+
+<fab90cca-4dd7-477e-a0c5-1873549592e4> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "DFA0DF" ;
     crm:P2_has_type <5f1bb74f-6ea0-4073-8b68-086f98454f1c> .
 
 @base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 
-<3b2674e6-f14e-474e-847f-9182b2db597a> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/etatdufonds.pdf> ;
-    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
-
-<6aeb7c3a-f1b0-4f34-8b0e-37c08730bd27> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/statuts_1844-1846.pdf> ;
-    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
-
-<854bfcf3-27d1-45d4-8884-b36446b749d1> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/cr1844-1880.pdf> ;
-    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
-
-<9ff958aa-d375-4975-9647-717c7832e984> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/README.md> ;
-    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
-
-<b3069d32-c707-4b26-bcbe-094b2eea023d> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/statuts_1848-1849.pdf> ;
-    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
-
-<cf95d9f3-322c-4126-b3a7-084acadfb9dd> a crm:E42_Identifier ;
+<0115ba3a-399d-42f5-8254-6733913a04de> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/adherents4_0.pdf> ;
     crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
 
-<fed3d0b4-8ea8-41d7-8643-6e67535ca207> a crm:E42_Identifier ;
+<1d236935-d05c-4ab5-bcaa-9b3da3df3fca> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/statuts_1844-1846.pdf> ;
+    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
+
+<47d02119-e0e6-4674-8b65-f84a307a3787> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/statuts_1848-1849.pdf> ;
+    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
+
+<4b783495-6876-4d4f-bfac-f9d575fb6c41> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/etatdufonds.pdf> ;
+    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
+
+<71e2840c-28f0-48db-8de0-fee676993711> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/presentation.pdf> ;
     crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
 
-<ff32b6e8-2da1-4e79-b39e-880198d58fcc> a crm:E42_Identifier ;
+<8368a8e1-32a9-4706-ac46-633cfba43d40> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/cr1844-1880.pdf> ;
+    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
+
+<ce9b87c5-bfdb-41dc-a203-93374eb1811c> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/logo.jpg> ;
     crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
 
+<f224c99c-9e1f-42c5-92ae-8803faa1bcc2> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/README.md> ;
+    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
+
 <01654e8d-ebc6-4f56-8902-ec7a97788a0c> a crm:E31_Document ;
-    crm:P1_is_identified_by <6aeb7c3a-f1b0-4f34-8b0e-37c08730bd27>,
+    crm:P1_is_identified_by <1d236935-d05c-4ab5-bcaa-9b3da3df3fca>,
         "Statuts 1844-1846" ;
-    crm:P2_has_type <66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> ;
     crm:P70_documents <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
 
 <12641e15-3d4e-478f-8822-89a94ca1e48f> a crm:E31_Document ;
-    crm:P1_is_identified_by <fed3d0b4-8ea8-41d7-8643-6e67535ca207>,
+    crm:P1_is_identified_by <71e2840c-28f0-48db-8de0-fee676993711>,
         "Présentation générale" ;
-    crm:P2_has_type <66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> ;
     crm:P70_documents <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
 
 <5bbd9e41-aab7-4c21-ad23-db13066f3c55> a crm:E31_Document ;
-    crm:P1_is_identified_by <cf95d9f3-322c-4126-b3a7-084acadfb9dd>,
+    crm:P1_is_identified_by <0115ba3a-399d-42f5-8254-6733913a04de>,
         "La Société des compositeurs de musique (1862-1923)" ;
-    crm:P2_has_type <66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> ;
     crm:P70_documents <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
 
 <7a9db1f1-565e-4f48-a98c-fa9104582f68> a crm:E31_Document ;
-    crm:P1_is_identified_by <b3069d32-c707-4b26-bcbe-094b2eea023d>,
+    crm:P1_is_identified_by <47d02119-e0e6-4674-8b65-f84a307a3787>,
         "Statuts 1848-1849" ;
-    crm:P2_has_type <66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> ;
     crm:P70_documents <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
 
 <a1b37ed5-477f-4cb8-91df-1c3845341248> a crm:E31_Document ;
-    crm:P1_is_identified_by <3b2674e6-f14e-474e-847f-9182b2db597a>,
+    crm:P1_is_identified_by <4b783495-6876-4d4f-bfac-f9d575fb6c41>,
         "État du fonds" ;
-    crm:P2_has_type <66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> ;
     crm:P70_documents <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
 
 <b3f43101-ce54-46ce-ae37-dfa6c4dae7d3> a crm:E31_Document ;
-    crm:P1_is_identified_by <ff32b6e8-2da1-4e79-b39e-880198d58fcc>,
+    crm:P1_is_identified_by <ce9b87c5-bfdb-41dc-a203-93374eb1811c>,
         "Logo" ;
-    crm:P2_has_type <66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> ;
     crm:P70_documents <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
 
 <b56c52b0-1f7b-4da5-abc4-366fc6982307> a crm:E31_Document ;
-    crm:P1_is_identified_by <9ff958aa-d375-4975-9647-717c7832e984>,
+    crm:P1_is_identified_by <f224c99c-9e1f-42c5-92ae-8803faa1bcc2>,
         "Texte de présentation du projet" ;
-    crm:P2_has_type <66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> ;
     crm:P70_documents <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
 
 <b8dbba98-5632-4b56-afe6-b42e982dd48f> a crm:E31_Document ;
-    crm:P1_is_identified_by <854bfcf3-27d1-45d4-8884-b36446b749d1>,
+    crm:P1_is_identified_by <8368a8e1-32a9-4706-ac46-633cfba43d40>,
         "Comptes rendus annuels 1844-1880" ;
-    crm:P2_has_type <66ee2b5c-7d83-43d2-9d6e-d3a4d8443570> ;
     crm:P70_documents <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
 
 <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> crm:P70i_is_documented_in <01654e8d-ebc6-4f56-8902-ec7a97788a0c>,
@@ -558,281 +586,291 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
 
-<00ff6396-2942-49db-adc5-89e9fbcfb4d9> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "refar" ;
-    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
-
-<03d27377-2837-4c96-8981-147b389fc94b> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/mercure-galant/logo.png> ;
-    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
-
-<054a7274-8c6a-4235-a394-07e8a53eb7d5> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "refar-personnes" ;
-    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
-
-<078af663-93db-48c8-8476-ff3fe8150e6b> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "euterpe" ;
-    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
-
-<091f6276-b648-4534-aff9-ac60890d3cbd> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/recensio> ;
-    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> .
-
-<218596dd-d90d-4f2e-9f68-6e31e1b68cf6> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/mercure-galant-tei> ;
-    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> .
-
-<281f3119-1f89-44e1-ad86-32836be35ed1> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/mercure-galant/logo.png> ;
-    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
-
-<29955a96-0991-46ec-a607-9c21979ed392> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/logo.jpg> ;
-    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
-
-<3d63c18a-221c-4e4b-8a25-31ee2e1579fe> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "aam" ;
-    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
-
-<42969aac-46e7-46ad-877d-62f542cecae7> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "refar-lieux" ;
-    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
-
-<4560a4f4-e89a-4f8c-8d9a-8ba2805fc5c2> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/mercure-galant/logo.png> ;
-    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
-
-<4621c29e-e326-40db-8d76-bd99f76abc83> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "mercure-galant-tei" ;
-    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
-
-<4659c986-0547-494c-8d20-a012cf88286e> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/refar-institutions> ;
-    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> .
-
-<46dc752f-5f2f-4cd1-a3df-44f9e0c4d07b> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/mercure-galant-estampes> ;
-    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> .
-
-<46de3c1b-9754-4deb-b417-87812bc77ce0> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/refar-personnes> ;
-    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> .
-
-<58c2e9fc-7881-4799-a02e-be361421f1e9> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "🎵" ;
-    crm:P2_has_type <17e3d5f6-36ae-4e90-adc2-1de04eeeacb9> .
-
-<5c6dd032-1990-4305-924c-70851e675cb0> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/mercure-galant/logo.png> ;
-    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
-
-<659b9b62-f2b0-4c9b-b782-a7f93fa943ad> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/mercure-galant/logo.png> ;
-    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
-
-<811dce67-575b-41d3-9668-1e8cc7146bb7> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "🖼️" ;
-    crm:P2_has_type <17e3d5f6-36ae-4e90-adc2-1de04eeeacb9> .
-
-<85bec707-266b-4fb8-b6c5-cb1c406e58b8> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/refar/logo.png> ;
-    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
-
-<87511805-f4f4-4d33-b9f0-160756545ba5> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "mercure-galant-tei-langue" ;
-    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
-
-<98cf12ee-83fa-4d7a-bfce-c4809674f10e> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/refar-lieux> ;
-    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> .
-
-<99566019-c06c-42d3-bb9a-347c45712559> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/mercure-galant-airs> ;
-    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> .
-
-<9bf46a7e-0055-45a6-87d9-660300327ba0> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "mercure-galant" ;
-    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
-
-<9e66b333-7c09-4f65-aba1-7ab340e85f1f> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/euterpe> ;
-    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> .
-
-<b7d143a6-47a4-4c0c-acdb-03e19bcd33e0> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/refar/logo.png> ;
-    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
-
-<b7d60350-df63-4b34-a581-d4d2363fa04d> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/refar/logo.png> ;
-    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
-
-<b9981c2a-a75d-459c-81f6-bdd2d88d92f1> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "aaad" ;
-    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
-
-<c2e90287-243b-450a-87bd-421a3174ead5> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "EA" ;
-    crm:P2_has_type <17e3d5f6-36ae-4e90-adc2-1de04eeeacb9> .
-
-<c84b8101-2d0a-48db-815a-c9b1bc477cb2> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "PO" ;
-    crm:P2_has_type <17e3d5f6-36ae-4e90-adc2-1de04eeeacb9> .
-
-<cdb5271e-532b-4916-8aa5-07985ff2f67d> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/euterpe/logo.png> ;
-    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
-
-<cdc835f4-cb00-4cba-adc9-b89f911d987c> a crm:E42_Identifier ;
+<02b97f63-3e27-4193-8d4e-c90b85bab0f6> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content "refar-institutions" ;
     crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
 
-<d275c07e-2d70-4623-8fd2-efadff16aa33> a crm:E42_Identifier ;
+<07da76b4-43cf-4bcc-90f5-389f61ac1ab6> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/mercure-galant/logo.png> ;
     crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
 
-<d6de5687-03af-4b02-8700-f0b3aff7a2f9> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/aam> ;
-    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> .
-
-<ddce93bf-b7b6-40ca-a2ec-8d055e8d1ea8> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "sherlock" ;
-    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
-
-<e09d599a-64af-48cc-9fc1-83bd6672f942> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "cantate18" ;
-    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
-
-<e1d3281e-4dad-4a29-a788-58cec41f2205> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "recensio" ;
-    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
-
-<e97a9842-c0fd-4ec8-a5a2-6ecead90e1d0> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/refar/logo.png> ;
+<0db3a829-26cc-41ba-8501-24afebd3133f> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/mercure-galant/logo.png> ;
     crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
 
-<f0ba1cbe-930e-470e-a86a-e9b3a646606c> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "mercure-galant-tei-crsh" ;
+<0ef214a1-1f77-4b99-b713-59ef31da9d0d> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "mercure-galant-tei-langue" ;
     crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
 
-<f156c5f0-ca31-4952-8476-e9945dfb8776> a crm:E42_Identifier ;
+<1586e2de-77bd-4187-ad5a-e508b4bac527> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "aam" ;
+    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
+
+<19507606-6620-4362-9423-a8fb92d5676b> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "🎵" ;
+    crm:P2_has_type <17e3d5f6-36ae-4e90-adc2-1de04eeeacb9> .
+
+<235c1088-c46f-48a6-9c1d-b36be2073521> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/mercure-galant/logo.png> ;
+    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
+
+<26b99732-c672-4fc2-ad39-0d24c2878c2e> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/euterpe/logo.png> ;
+    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
+
+<3339bd00-9416-42a4-bbf7-ac1567de9019> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/mercure-galant-airs> ;
+    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> .
+
+<3d251857-ebad-4140-a1f2-bd8bc10306f0> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/logo.jpg> ;
+    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
+
+<41ac7c3c-fb6e-41a2-a9e1-8f56559ca82e> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content "mercure-galant-estampes" ;
     crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
 
-<f37a962f-cfa2-46a5-b020-8df00fd1eaa7> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "🌞" ;
-    crm:P2_has_type <17e3d5f6-36ae-4e90-adc2-1de04eeeacb9> .
-
-<fa08dbb6-76e3-4090-a5cf-8bc18d98eebb> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "📙" ;
-    crm:P2_has_type <17e3d5f6-36ae-4e90-adc2-1de04eeeacb9> .
-
-<faff4398-fae5-4337-ab01-c9912fad2880> a crm:E42_Identifier ;
+<4a0d78d0-0c6b-4539-b9ba-024026b6afb8> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content "mercure-galant-airs" ;
     crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
 
+<4c9a7e9f-f8db-41c1-ab16-b44a38ca2f50> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/refar-institutions> ;
+    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> .
+
+<4ebefec2-bc3b-4fa1-82fc-e35273f3acb5> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "refar-personnes" ;
+    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
+
+<54a87862-1f62-4deb-80fb-0adb0d627999> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "mercure-galant-tei-crsh" ;
+    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
+
+<5958abbe-38ec-4551-8d27-261d0b7a5510> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "PO" ;
+    crm:P2_has_type <17e3d5f6-36ae-4e90-adc2-1de04eeeacb9> .
+
+<6142dbf8-69e1-4a88-8675-cf2cae9a6270> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "🖼️" ;
+    crm:P2_has_type <17e3d5f6-36ae-4e90-adc2-1de04eeeacb9> .
+
+<62a8cdc9-da8a-4f6d-b5b0-518c9a271abe> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/refar/logo.png> ;
+    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
+
+<6c805cdc-0854-4756-afa2-95ad00e4a1f8> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "EA" ;
+    crm:P2_has_type <17e3d5f6-36ae-4e90-adc2-1de04eeeacb9> .
+
+<7382d4fc-bb3b-412b-ba79-3d09e63e9ae0> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "mercure-galant" ;
+    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
+
+<7588a6f5-4619-4bb9-b526-c51e3a22c0b3> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "euterpe" ;
+    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
+
+<76597e71-cf34-4d33-aa3d-42af75c2ca38> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "aaad" ;
+    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
+
+<78d58f49-d0ce-4b2e-8d11-973d344fee04> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/mercure-galant/logo.png> ;
+    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
+
+<7de107e8-b2b6-474c-bf89-0c23d1a12da4> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/recensio> ;
+    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> .
+
+<7ebd3f74-4ce7-4cb0-b34f-ce8a85d39b2c> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "mercure-galant-tei" ;
+    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
+
+<8c51f394-aabc-4324-935e-bda4c1fc9c78> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/mercure-galant-tei> ;
+    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> .
+
+<96585334-41cd-435c-b354-aacab8c57942> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "refar-lieux" ;
+    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
+
+<9987be28-b42f-4df8-b67d-6f41e623f1df> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/aam> ;
+    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> .
+
+<a019b9c7-9338-40e2-82bc-344874088e39> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "refar" ;
+    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
+
+<ab2ba24e-627b-44bb-95e9-4deda7c15eee> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "📙" ;
+    crm:P2_has_type <17e3d5f6-36ae-4e90-adc2-1de04eeeacb9> .
+
+<b2ca5e4f-a612-467c-9710-aabbf882e37b> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/refar/logo.png> ;
+    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
+
+<b3ac2490-524f-44f5-917c-f2c7d69a99ac> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/euterpe> ;
+    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> .
+
+<b4425666-5416-45b8-bc79-355f2c6e1b02> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "cantate18" ;
+    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
+
+<be28b236-5102-45e3-b165-58f652f5b8ec> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/refar/logo.png> ;
+    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
+
+<c424d6a0-ae8a-4bed-8267-d19e6dce4c46> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "recensio" ;
+    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
+
+<cd9e1b11-e42d-4782-b1df-a3d871ded8c9> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/refar/logo.png> ;
+    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
+
+<d17c01b0-745e-4fa8-8044-3cb0256ffb31> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "🌞" ;
+    crm:P2_has_type <17e3d5f6-36ae-4e90-adc2-1de04eeeacb9> .
+
+<d9eaa077-60d9-4606-a1a4-6214491f5b44> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "repertoire-baroque" ;
+    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
+
+<db3f52ac-8b6a-4dcf-8b6f-67cd269cc907> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/mercure-galant/logo.png> ;
+    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
+
+<eca48c1c-3a61-4ed9-a1c1-23cd97fd91b0> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/refar-lieux> ;
+    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> .
+
+<ef6d5d2c-ed39-44bf-b0d8-44f8553db950> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/mercure-galant/logo.png> ;
+    crm:P2_has_type <804d8e72-cced-4b78-85d4-78a016e1c153> .
+
+<f1690cc5-ecf8-4e27-b265-61769a798794> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/refar-personnes> ;
+    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> .
+
+<f4f93865-b917-4e38-a419-cba03c6c72d1> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "sherlock" ;
+    crm:P2_has_type <574ffe9e-525c-42f2-8188-329ba3c7231d> .
+
+<ffa58fc6-7498-4df0-a35d-df9010c73af4> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/mercure-galant-estampes> ;
+    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> .
+
 <01ca1829-9bee-479a-87a5-36e5e2c28864> a crm:E7_Activity ;
     sherlock:has_context_project <909dced3-d169-4815-ab61-e6d4eae412cc> ;
-    crm:P1_is_identified_by <4659c986-0547-494c-8d20-a012cf88286e>,
-        <b7d143a6-47a4-4c0c-acdb-03e19bcd33e0>,
-        <cdc835f4-cb00-4cba-adc9-b89f911d987c>,
+    crm:P1_is_identified_by <02b97f63-3e27-4193-8d4e-c90b85bab0f6>,
+        <4c9a7e9f-f8db-41c1-ab16-b44a38ca2f50>,
+        <be28b236-5102-45e3-b165-58f652f5b8ec>,
         "ReFAR : Institutions" ;
     crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
     crm:P9i_forms_part_of <909dced3-d169-4815-ab61-e6d4eae412cc> .
 
 <0ed9ae09-129d-4c52-ad9a-3a69a74cea1b> a crm:E7_Activity ;
     sherlock:has_context_project <77176a31-2f64-4c47-82d7-fbdda58d776d> ;
-    crm:P1_is_identified_by <659b9b62-f2b0-4c9b-b782-a7f93fa943ad>,
-        <87511805-f4f4-4d33-b9f0-160756545ba5>,
-        <c84b8101-2d0a-48db-815a-c9b1bc477cb2>,
+    crm:P1_is_identified_by <0ef214a1-1f77-4b99-b713-59ef31da9d0d>,
+        <5958abbe-38ec-4551-8d27-261d0b7a5510>,
+        <db3f52ac-8b6a-4dcf-8b6f-67cd269cc907>,
         "Corpus de Pauline Odeurs" ;
     crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
     crm:P9i_forms_part_of <77176a31-2f64-4c47-82d7-fbdda58d776d> .
 
 <15efa404-c065-4c04-ab16-375b7d95afbf> a crm:E7_Activity ;
     sherlock:has_context_project <15efa404-c065-4c04-ab16-375b7d95afbf> ;
-    crm:P1_is_identified_by <078af663-93db-48c8-8476-ff3fe8150e6b>,
-        <9e66b333-7c09-4f65-aba1-7ab340e85f1f>,
-        <cdb5271e-532b-4916-8aa5-07985ff2f67d>,
+    crm:P1_is_identified_by <26b99732-c672-4fc2-ad39-0d24c2878c2e>,
+        <7588a6f5-4619-4bb9-b526-c51e3a22c0b3>,
+        <b3ac2490-524f-44f5-917c-f2c7d69a99ac>,
         "Euterpe" ;
     crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> .
 
 <5399f2af-3e27-47be-b258-b65b6f97be21> a crm:E7_Activity ;
     sherlock:has_context_project <77176a31-2f64-4c47-82d7-fbdda58d776d> ;
-    crm:P1_is_identified_by <c2e90287-243b-450a-87bd-421a3174ead5>,
-        <d275c07e-2d70-4623-8fd2-efadff16aa33>,
-        <f0ba1cbe-930e-470e-a86a-e9b3a646606c>,
+    crm:P1_is_identified_by <54a87862-1f62-4deb-80fb-0adb0d627999>,
+        <6c805cdc-0854-4756-afa2-95ad00e4a1f8>,
+        <78d58f49-d0ce-4b2e-8d11-973d344fee04>,
         "Écrire l'Amérique" ;
     crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
     crm:P9i_forms_part_of <77176a31-2f64-4c47-82d7-fbdda58d776d> .
 
 <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> a crm:E7_Activity ;
     sherlock:has_context_project <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> ;
-    crm:P1_is_identified_by <29955a96-0991-46ec-a607-9c21979ed392>,
-        <3d63c18a-221c-4e4b-8a25-31ee2e1579fe>,
-        <d6de5687-03af-4b02-8700-f0b3aff7a2f9>,
+    crm:P1_is_identified_by <1586e2de-77bd-4187-ad5a-e508b4bac527>,
+        <3d251857-ebad-4140-a1f2-bd8bc10306f0>,
+        <9987be28-b42f-4df8-b67d-6f41e623f1df>,
         "Association des artistes musiciens" ;
     crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> .
 
 <71dc9565-1bb8-485b-9b8e-0b1b4c57d5b7> a crm:E7_Activity ;
     sherlock:has_context_project <ffa12984-84e3-450f-b4c0-349c3c20a4a1> ;
-    crm:P1_is_identified_by <4560a4f4-e89a-4f8c-8d9a-8ba2805fc5c2>,
-        <58c2e9fc-7881-4799-a02e-be361421f1e9>,
-        <99566019-c06c-42d3-bb9a-347c45712559>,
-        <faff4398-fae5-4337-ab01-c9912fad2880>,
+    crm:P1_is_identified_by <19507606-6620-4362-9423-a8fb92d5676b>,
+        <235c1088-c46f-48a6-9c1d-b36be2073521>,
+        <3339bd00-9416-42a4-bbf7-ac1567de9019>,
+        <4a0d78d0-0c6b-4539-b9ba-024026b6afb8>,
         "Le Mercure Galant numérique" ;
     crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
     crm:P9i_forms_part_of <ffa12984-84e3-450f-b4c0-349c3c20a4a1> .
 
+<8b0200d1-6e68-42a4-b484-c31a09a8009c> a crm:E7_Activity ;
+    sherlock:has_context_project <8b0200d1-6e68-42a4-b484-c31a09a8009c> ;
+    crm:P1_is_identified_by <d9eaa077-60d9-4606-a1a4-6214491f5b44>,
+        "Répertoire baroque" ;
+    crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> .
+
 <8ebbe72e-ff8f-40fd-b958-cd4281aabf03> a crm:E7_Activity ;
     sherlock:has_context_project <8ebbe72e-ff8f-40fd-b958-cd4281aabf03> ;
-    crm:P1_is_identified_by <e09d599a-64af-48cc-9fc1-83bd6672f942>,
+    crm:P1_is_identified_by <b4425666-5416-45b8-bc79-355f2c6e1b02>,
         "Répertoire de la cantate en France au XVIIIème siècle" ;
     crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> .
 
 <bb8b4c24-4d9f-4790-a710-511e49e5c6b7> a crm:E7_Activity ;
     sherlock:has_context_project <909dced3-d169-4815-ab61-e6d4eae412cc> ;
-    crm:P1_is_identified_by <054a7274-8c6a-4235-a394-07e8a53eb7d5>,
-        <46de3c1b-9754-4deb-b417-87812bc77ce0>,
-        <85bec707-266b-4fb8-b6c5-cb1c406e58b8>,
+    crm:P1_is_identified_by <4ebefec2-bc3b-4fa1-82fc-e35273f3acb5>,
+        <b2ca5e4f-a612-467c-9710-aabbf882e37b>,
+        <f1690cc5-ecf8-4e27-b265-61769a798794>,
         "ReFAR : Personnes" ;
     crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
     crm:P9i_forms_part_of <909dced3-d169-4815-ab61-e6d4eae412cc> .
 
 <d0b70412-813a-4344-b749-03c2d819e6c2> a crm:E7_Activity ;
     sherlock:has_context_project <909dced3-d169-4815-ab61-e6d4eae412cc> ;
-    crm:P1_is_identified_by <42969aac-46e7-46ad-877d-62f542cecae7>,
-        <98cf12ee-83fa-4d7a-bfce-c4809674f10e>,
-        <b7d60350-df63-4b34-a581-d4d2363fa04d>,
+    crm:P1_is_identified_by <62a8cdc9-da8a-4f6d-b5b0-518c9a271abe>,
+        <96585334-41cd-435c-b354-aacab8c57942>,
+        <eca48c1c-3a61-4ed9-a1c1-23cd97fd91b0>,
         "ReFAR : Lieux" ;
     crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
     crm:P9i_forms_part_of <909dced3-d169-4815-ab61-e6d4eae412cc> .
 
 <f6b0fdf3-702e-427b-a562-89b8da544fb4> a crm:E7_Activity ;
     sherlock:has_context_project <f6b0fdf3-702e-427b-a562-89b8da544fb4> ;
-    crm:P1_is_identified_by <b9981c2a-a75d-459c-81f6-bdd2d88d92f1>,
+    crm:P1_is_identified_by <76597e71-cf34-4d33-aa3d-42af75c2ca38>,
         "Annonces, affiches et avis divers" ;
     crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> .
 
 <f7f9f39e-9ed8-480c-b84f-08c28025ef6f> a crm:E7_Activity ;
     sherlock:has_context_project <ffa12984-84e3-450f-b4c0-349c3c20a4a1> ;
-    crm:P1_is_identified_by <03d27377-2837-4c96-8981-147b389fc94b>,
-        <46dc752f-5f2f-4cd1-a3df-44f9e0c4d07b>,
-        <811dce67-575b-41d3-9668-1e8cc7146bb7>,
-        <f156c5f0-ca31-4952-8476-e9945dfb8776>,
+    crm:P1_is_identified_by <41ac7c3c-fb6e-41a2-a9e1-8f56559ca82e>,
+        <6142dbf8-69e1-4a88-8675-cf2cae9a6270>,
+        <ef6d5d2c-ed39-44bf-b0d8-44f8553db950>,
+        <ffa58fc6-7498-4df0-a35d-df9010c73af4>,
         "Le Mercure Galant numérique" ;
     crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
     crm:P9i_forms_part_of <ffa12984-84e3-450f-b4c0-349c3c20a4a1> .
 
 <fd40ae76-e5ae-4a1a-9fac-b2d185e180ed> a crm:E7_Activity ;
     sherlock:has_context_project <fd40ae76-e5ae-4a1a-9fac-b2d185e180ed> ;
-    crm:P1_is_identified_by <091f6276-b648-4534-aff9-ac60890d3cbd>,
-        <e1d3281e-4dad-4a29-a788-58cec41f2205>,
+    crm:P1_is_identified_by <7de107e8-b2b6-474c-bf89-0c23d1a12da4>,
+        <c424d6a0-ae8a-4bed-8267-d19e6dce4c46>,
         "Catalogage des sources pour les éditions critiques (recensio)" ;
     crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> .
 
 <fd8506d6-aae2-4747-a995-d070fd7b069a> a crm:E7_Activity ;
     sherlock:has_context_project <fd8506d6-aae2-4747-a995-d070fd7b069a> ;
-    crm:P1_is_identified_by <ddce93bf-b7b6-40ca-a2ec-8d055e8d1ea8>,
+    crm:P1_is_identified_by <f4f93865-b917-4e38-a419-cba03c6c72d1>,
         "SHERLOCK" ;
     crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> .
 
@@ -849,26 +887,26 @@
 
 <77176a31-2f64-4c47-82d7-fbdda58d776d> a crm:E7_Activity ;
     sherlock:has_context_project <ffa12984-84e3-450f-b4c0-349c3c20a4a1> ;
-    crm:P1_is_identified_by <218596dd-d90d-4f2e-9f68-6e31e1b68cf6>,
-        <281f3119-1f89-44e1-ad86-32836be35ed1>,
-        <4621c29e-e326-40db-8d76-bd99f76abc83>,
-        <fa08dbb6-76e3-4090-a5cf-8bc18d98eebb>,
+    crm:P1_is_identified_by <0db3a829-26cc-41ba-8501-24afebd3133f>,
+        <7ebd3f74-4ce7-4cb0-b34f-ce8a85d39b2c>,
+        <8c51f394-aabc-4324-935e-bda4c1fc9c78>,
+        <ab2ba24e-627b-44bb-95e9-4deda7c15eee>,
         "Le Mercure Galant numérique" ;
     crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
     crm:P9i_forms_part_of <ffa12984-84e3-450f-b4c0-349c3c20a4a1> .
 
 <909dced3-d169-4815-ab61-e6d4eae412cc> a crm:E7_Activity ;
     sherlock:has_context_project <909dced3-d169-4815-ab61-e6d4eae412cc> ;
-    crm:P1_is_identified_by <00ff6396-2942-49db-adc5-89e9fbcfb4d9>,
-        <e97a9842-c0fd-4ec8-a5a2-6ecead90e1d0>,
+    crm:P1_is_identified_by <a019b9c7-9338-40e2-82bc-344874088e39>,
+        <cd9e1b11-e42d-4782-b1df-a3d871ded8c9>,
         "ReFAR : Référentiel de la France de l'Ancien Régime" ;
     crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> .
 
 <ffa12984-84e3-450f-b4c0-349c3c20a4a1> a crm:E7_Activity ;
     sherlock:has_context_project <ffa12984-84e3-450f-b4c0-349c3c20a4a1> ;
-    crm:P1_is_identified_by <5c6dd032-1990-4305-924c-70851e675cb0>,
-        <9bf46a7e-0055-45a6-87d9-660300327ba0>,
-        <f37a962f-cfa2-46a5-b020-8df00fd1eaa7>,
+    crm:P1_is_identified_by <07da76b4-43cf-4bcc-90f5-389f61ac1ab6>,
+        <7382d4fc-bb3b-412b-ba79-3d09e63e9ae0>,
+        <d17c01b0-745e-4fa8-8044-3cb0256ffb31>,
         "Le Mercure Galant numérique" ;
     crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> .
 

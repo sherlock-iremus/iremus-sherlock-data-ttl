@@ -9,13 +9,16 @@
         <18d2486d-88ef-4bb9-9a36-05aaee5dc0fb>,
         <19abc113-6119-4360-be30-6c9bc1468827>,
         <1af36f4e-5e9b-44b2-aef3-a91c2c190b76>,
+        <305485c8-ebc6-4db8-b1e4-8cd498c09ce6>,
         <3dec8a75-786b-4314-bf6a-cbc3bdc20c73>,
         <412142ec-63a8-41f0-8868-2623015a5cd1>,
         <42622a51-8d54-4be7-9012-ff879398e0b0>,
         <4aa1d588-ff1b-4ac5-bed7-2cd2f0aab579>,
         <4b3040e5-a6c3-4c9f-b318-c0699906e8da>,
+        <4e810fdf-baee-4bdf-a539-4e2109aa6f18>,
         <669fb0e8-1624-44e3-aa20-ecd02bd62c54>,
         <67a4fbdc-a186-43c5-bcb9-bb25bf798ded>,
+        <6e1d07c0-3c36-471d-883a-62ca12a3c079>,
         <751e102f-4019-444a-826e-fa9277cb4198>,
         <8c01e892-9635-4b5f-8d9a-cb5d765c3d3c>,
         <8d4eceb9-7245-4cff-bc0b-7504efd5ded2>,
@@ -24,7 +27,10 @@
         <9f423c5f-e6b7-440f-bd67-a33f8bb9d557>,
         <a95bde96-0fb0-48af-b4c0-b6216a1ae544>,
         <a98a2ce1-4ee7-4e8f-98bf-11c38e96dbca>,
+        <b7906049-7e6e-4fb1-a9f3-c15fc9cc6eef>,
         <bda0624b-a9dc-438d-bf5f-dba1eebc9648>,
+        <c664eafc-e6a2-4c85-8023-1b4a9278301c>,
+        <e66dd42c-3d8f-409f-b643-2568bf9b753f>,
         <ea00ab71-5759-4f40-b807-d28f06fa6d8b> .
 
 <081e9980-cbe5-4e8e-b2b3-0239ad3f8378> a crm:E55_Type ;
@@ -51,6 +57,9 @@
 <1af36f4e-5e9b-44b2-aef3-a91c2c190b76> a crm:E55_Type ;
     crm:P1_is_identified_by "Prénom" .
 
+<305485c8-ebc6-4db8-b1e4-8cd498c09ce6> a crm:E55_Type ;
+    crm:P1_is_identified_by "Timbres instrumentaux" .
+
 <3dec8a75-786b-4314-bf6a-cbc3bdc20c73> a crm:E55_Type ;
     crm:P1_is_identified_by "Numéro de sociétaire 1861" .
 
@@ -66,11 +75,17 @@
 <4b3040e5-a6c3-4c9f-b318-c0699906e8da> a crm:E55_Type ;
     crm:P1_is_identified_by "Chant" .
 
+<4e810fdf-baee-4bdf-a539-4e2109aa6f18> a crm:E55_Type ;
+    crm:P1_is_identified_by "Voix solistes" .
+
 <669fb0e8-1624-44e3-aa20-ecd02bd62c54> a crm:E55_Type ;
     crm:P1_is_identified_by "Annuaire" .
 
 <67a4fbdc-a186-43c5-bcb9-bb25bf798ded> a crm:E55_Type ;
     crm:P1_is_identified_by "Notes au titre" .
+
+<6e1d07c0-3c36-471d-883a-62ca12a3c079> a crm:E55_Type ;
+    crm:P1_is_identified_by "Symphonie" .
 
 <751e102f-4019-444a-826e-fa9277cb4198> a crm:E55_Type ;
     crm:P1_is_identified_by "Numéro de sociétaire 1868" .
@@ -96,8 +111,17 @@
 <a98a2ce1-4ee7-4e8f-98bf-11c38e96dbca> a crm:E55_Type ;
     crm:P1_is_identified_by "Adresse" .
 
+<b7906049-7e6e-4fb1-a9f3-c15fc9cc6eef> a crm:E55_Type ;
+    crm:P1_is_identified_by "Orchestre" .
+
 <bda0624b-a9dc-438d-bf5f-dba1eebc9648> a crm:E55_Type ;
     crm:P1_is_identified_by "Qualité" .
+
+<c664eafc-e6a2-4c85-8023-1b4a9278301c> a crm:E55_Type ;
+    crm:P1_is_identified_by "Chœur" .
+
+<e66dd42c-3d8f-409f-b643-2568bf9b753f> a crm:E55_Type ;
+    crm:P1_is_identified_by "Basse continue" .
 
 <ea00ab71-5759-4f40-b807-d28f06fa6d8b> a crm:E55_Type ;
     crm:P1_is_identified_by "Domaine" .
