@@ -1,0 +1,21 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://www.nakala.fr/10.34847/nkl.48576349> a crm:E1_CRM_Entity ;
+    crm:P1_is_identified_by <9ebffc12-2413-4888-b3b9-ce099bf9f327> .
+
+<9ebffc12-2413-4888-b3b9-ce099bf9f327> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://api.nakala.fr/data/10.34847/nkl.48576349/d3a0071967dec41f0b5ff093129938ec7eafeb3e> ;
+    crm:P2_has_type <12c5795a-d5fd-4730-9c84-833714b6aaef> .
+
+ @base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<dc6a1597-78ed-4277-8a03-07b3671d8f05> a crm:E36_Visual_Item ;
+    crm:P1_is_identified_by <130518a4-d6e6-4ee8-9245-7cb10afd0cb3> .
+
+<130518a4-d6e6-4ee8-9245-7cb10afd0cb3> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://www.nakala.fr/10.34847/nkl.21cby6if> ;
+    crm:P2_has_type <2e12e76e-d19b-4e22-92fe-a3e0766847f4> .
+
+ 
