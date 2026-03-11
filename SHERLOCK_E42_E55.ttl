@@ -7,6 +7,9 @@
 <04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> a crm:E55_Type ;
     crm:P1_is_identified_by "Emoji" .
 
+<12c5795a-d5fd-4730-9c84-833714b6aaef> a crm:E55_Type ;
+    crm:P1_is_identified_by "URI de fichier MEI" .
+
 <179c61b8-4215-4644-bb52-ad9fe2094da1> a crm:E55_Type ;
     crm:P1_is_identified_by "URI Grove" .
 
