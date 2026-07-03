@@ -1,0 +1,25 @@
+@prefix : <http://data-iremus.huma-num.fr/id/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix mus: <http://data.doremus.org/ontology>.
+
+:dc6a1597-78ed-4277-8a03-07b3671d8f05 a lrmoo:F2_Expression;
+    crm:P2_has_type <http://vocab.getty.edu/page/aat/300417577>;
+    sherlock:is_member_of :fe15866e-14cd-4ea0-a6a1-ef5106402835;
+    crm:P71i_is_listed_in :2c98cbd7-e38d-4139-b58f-a23dc0f2b512;
+    sherlock:has_context_project :44ec81e5-5e4f-4981-a337-26e0200a1d20;
+    crm:P1_is_identified_by "The Wrath of Code", :28ff92bc-3c8e-4d61-baea-90ca93540bd2;
+    lrmoo:R17i_was_created_by :65527b72-7593-47ee-9863-32abdd58c374.
+:fe15866e-14cd-4ea0-a6a1-ef5106402835 sherlock:has_member :dc6a1597-78ed-4277-8a03-07b3671d8f05.
+:2c98cbd7-e38d-4139-b58f-a23dc0f2b512 crm:P71_lists :dc6a1597-78ed-4277-8a03-07b3671d8f05.
+:44ec81e5-5e4f-4981-a337-26e0200a1d20 sherlock:is_context_project_of :dc6a1597-78ed-4277-8a03-07b3671d8f05.
+:28ff92bc-3c8e-4d61-baea-90ca93540bd2 a crm:E42_Identifier;
+    crm:P2_has_type :6c1fb8be-2644-4bd9-ba43-a198ce8e67c4;
+    crm:P190_has_symbolic_content <https://dan-terminus.bandcamp.com/album/the-wrath-of-code-2>.
+:65527b72-7593-47ee-9863-32abdd58c374 a lrmoo:F28_Expression_Creation.
+:c4129404-b18c-4374-99ae-51856a48cc14 mus:U31_had_function <http://vocab.getty.edu/page/aat/300025671>;
+    crm:P14_carried_out_by :ea7f7473-f9ee-45bd-92db-e9a0e992cbc5.
+:da7c7601-d008-49a5-b90d-9663a8cecba0 mus:U31_had_function <http://vocab.getty.edu/page/aat/300025671>;
+    crm:P14_carried_out_by :0e30e8b9-0d0f-4bb5-89cc-424bb323c1ea.
